@@ -1,7 +1,64 @@
-node_modules
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build / cache
+# =========================
+dist/
+build/
+.cache/
+.tmp/
+
+# =========================
+# Environment & secrets
+# =========================
 .env
-.env.local
+.env.*
+!.env.example
+
+# Tokens locales / auth
+.pat
+token.txt
+*.secret
+secrets.local.json
+
+# =========================
+# OS / Editor
+# =========================
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
 *.log
-.vscode
-.idea
+
+# =========================
+# GitHub Actions runtime artifacts
+# =========================
+.artifacts/
+coverage/
+
+# =========================
+# UI runtime state (NO commitear)
+# =========================
+ui/localStorage.json
+
+# =========================
+# Generated monitoring outputs
+# =========================
+status.json
+incidents.json
+
+# =========================
+# Zip / exports
+# =========================
+*.zip
