@@ -1,8 +1,8 @@
 {
-  "lastRun": "2026-07-02T00:14:33.062Z",
+  "lastRun": "2026-07-02T04:32:30.736Z",
   "sites": {
     "ejemplo.cl": {
-      "lastCheck": "2026-07-02T00:14:33.062Z",
+      "lastCheck": "2026-07-02T04:32:30.736Z",
       "isUp": false,
       "layer": "NIC_CHILE",
       "severity": "critical",
@@ -12,14 +12,14 @@
       ],
       "http": {
         "status": null,
-        "latencyMs": 29,
+        "latencyMs": 22,
         "viaCloudflare": false,
         "cfRay": null,
         "server": null
       },
       "ns": [],
       "nsOnCloudflare": false,
-      "failStreak": 855,
+      "failStreak": 856,
       "downSince": "2026-04-21T20:53:35.233Z",
       "alerted": true
     }
